@@ -59,4 +59,6 @@ def job():
             print('\n')
             fhand.write(story + " " + url + indurl)
             fhand.write('\n')
-        fhand.close()
+        
+            fhand.close()
+job()
