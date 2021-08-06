@@ -11,7 +11,6 @@ def job():
         fh = open(r'C:\Users\Vishu\OneDrive - Prince William County Public Schools\Desktop\impy\footballinfo.txt', 'w')
         fh.close()
         fhand = open(r'C:\Users\Vishu\OneDrive - Prince William County Public Schools\Desktop\impy\footballinfo.txt', 'w')
-        # NOTE make id thingie work by looking up solutions
 
         all_big = soup.find_all('ol', class_='nfl-o-headlinestack__list')
         headline_big = all_big[0]
